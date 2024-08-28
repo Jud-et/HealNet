@@ -1,0 +1,9 @@
+service: () -> {
+    add_chat: (vec record {role:text; parts:vec record {"text":text}}, text) -> ();
+    create_new_chat: (vec record {role:text; parts:vec record {"text":text}}) -> (text);
+    delete_chat: (text) -> ();
+    get_a_chat: (text) -> (opt vec record {role:text; parts:vec record {"text":text}}) query;
+    get_chat_ids_by_user: () -> (opt vec text) query;
+    get_chats_by_user: () -> (vec record {chat_id:text; chat_history:vec record {role:text; parts:vec record {"text":text}}}) query;
+    greet: (text) -> (text) query;
+}
