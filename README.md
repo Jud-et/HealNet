@@ -12,7 +12,7 @@ analysis.
 
 
 
-Key Features:
+ Key Features:
 
 - **Always Available**: Healnet is ready to chat 24/7 whenever you need a companion.
 - **Informative & Fun**: Ask questions, explore topics, or have lighthearted conversations and games with Healnet.
