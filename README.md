@@ -2,7 +2,13 @@
 
 Healnet: AI Chat powered by Gemini Flash
 
-Healnet is an AI chat model designed for engaging and informative conversations. Fueled by the cutting-edge technology of Gemini Flash, Healnet offers a natural and smooth conversation experience.
+Healnet is an AI chat model designed to provide real-time support,
+answering queries, offering advice, and
+connecting users with necessary resources. It helps
+in guiding individuals through their recovery
+journey, providing motivation and personalized
+suggestions based on user interactions and data
+analysis.
 
 This repository houses the codebase for Healnet, including:
 
@@ -63,6 +69,8 @@ dfx canister --help
 ```
 
 ## Running the project locally
+you need your gemini API KEYS==
+src/frontend/src/lib/gemini-api.ts insert the key 
 
 If you want to test your project locally, you can use the following commands:
 

@@ -10,7 +10,7 @@ import {
 import type { ChatHistory } from "./history.store";
 
 const MODEL_NAME = "gemini-1.5-flash-latest";
-const API_KEY = "AIzaSyB5sOCEeMiu4ZrWyAA6MwziuS-DX2tHr6U"; //process.env.GEMINI_API_KEY as string;
+const API_KEY = ""; //process.env.GEMINI_API_KEY as string;
 
 export async function runChat(
   chatHistory: ChatHistory,
