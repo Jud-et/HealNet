@@ -1,23 +1,23 @@
-# Baatcheet
+# Healnet
 
-Baatcheet: AI Chat powered by Gemini Flash
+Healnet: AI Chat powered by Gemini Flash
 
-Baatcheet is an AI chat model designed for engaging and informative conversations. Fueled by the cutting-edge technology of Gemini Flash, Baatcheet offers a natural and smooth conversation experience.
+Healnet is an AI chat model designed for engaging and informative conversations. Fueled by the cutting-edge technology of Gemini Flash, Healnet offers a natural and smooth conversation experience.
 
-This repository houses the codebase for Baatcheet, including:
+This repository houses the codebase for Healnet, including:
 
 - The core AI model utilizing Gemini Flash for conversation processing.
 - The backend chat system written in Azle for efficient communication.
 
 Key Features:
 
-- **Always Available**: Baatcheet is ready to chat 24/7 whenever you need a companion.
-- **Informative & Fun**: Ask questions, explore topics, or have lighthearted conversations and games with Baatcheet.
+- **Always Available**: Healnet is ready to chat 24/7 whenever you need a companion.
+- **Informative & Fun**: Ask questions, explore topics, or have lighthearted conversations and games with Healnet.
 - **Data Ownership & Security**: Conversations are stored securely on the Internet Computer canister (blockchain), giving you complete control over your chat history.
 
 ## Data Flow
 
-1. User prompts Baatcheet.
+1. User prompts Healnet.
 
 2. Frontend (optional): Preprocesses prompt.
 
@@ -37,7 +37,7 @@ Key Features:
 - Personalized experience based on chat history.
 - Ability to resume conversations from past points.
 
-To learn more before you start working with baatcheet, see the following documentation available online:
+To learn more before you start working with Healnet, see the following documentation available online:
 
 - [Quick Start](https://internetcomputer.org/docs/current/developer-docs/setup/deploy-locally)
 - [SDK Developer Tools](https://internetcomputer.org/docs/current/developer-docs/setup/install)
@@ -57,7 +57,7 @@ For seamless **local interaction with frontend and AI**, **we strongly recommend
 If you want to start working on your project right away, you might want to try the following commands:
 
 ```bash
-cd baatcheet/
+cd Healnet/
 dfx help
 dfx canister --help
 ```
@@ -96,7 +96,7 @@ If you are making frontend changes, you can start a development server with
 npm start
 ```
 
-You will see a URL in terminal example `http://localhost:3000/` from vite. And you can open this URL in Browser and start interacting with Baatcheet
+You will see a URL in terminal example `http://localhost:3000/` from vite. And you can open this URL in Browser and start interacting with Healnet
 
 ### Note on frontend environment variables
 

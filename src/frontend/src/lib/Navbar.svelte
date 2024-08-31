@@ -33,7 +33,7 @@
     </svg>
     <span
       class="self-center whitespace-nowrap text-xl font-semibold dark:text-white"
-      >Baatcheet</span
+      >Healnet</span
     >
   </NavBrand>
   <div class="flex md:order-2 gap-3">

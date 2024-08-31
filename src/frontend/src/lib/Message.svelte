@@ -24,7 +24,7 @@
     border
     large
     color={role === "user" ? "purple" : "green"}
-    class="w-fit">{role === "user" ? "You" : "Baatcheet"}</Badge
+    class="w-fit">{role === "user" ? "You" : "Healio"}</Badge
   >
   <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
     {@html formattedResponseWithNewlines}
